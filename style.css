@@ -1,0 +1,54 @@
+/* Discord style form */
+.form-container {
+    background-color: #36393f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .form-title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .form-input {
+    background-color: #23272a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+  }
+  .form-submit {
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .custom-file-input {
+    display: inline-block;
+    position: relative;
+    background-color: #23272a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-bottom: 12px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .custom-file-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
